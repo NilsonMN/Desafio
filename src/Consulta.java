@@ -9,12 +9,12 @@ import java.net.http.HttpResponse;
 import java.time.Period;
 
 public class Consulta {
-    public Moneda consultar(String tipoMondeda){
+    public Moneda consultar(String tipoMondeda, String cntMoneda){
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
         URI direccion = URI.create(
                 "https://v6.exchangerate-api.com/v6/0db1b24c3d725231691491ea/pair/USD/"+
-                tipoMondeda);
+                tipoMondeda + "/" + cntMoneda);
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(direccion)

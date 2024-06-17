@@ -9,7 +9,7 @@ import java.net.http.HttpResponse;
 public class Main {
     public static void main(String[] args) {
         Consulta consulta = new Consulta();
-        Moneda moneda = consulta.consultar("AED");
+        Moneda moneda = consulta.consultar("AED", "1");
         System.out.println(moneda);
     }
 }
