@@ -5,7 +5,7 @@ public class Main {
         Scanner teclado = new Scanner(System.in);
         Consulta consulta = new Consulta();
 
-        String menu = ("Bienvenido al Conversor de Moneda\n" +
+        String menu = ("\nBienvenido al Conversor de Moneda\n" +
                 "==================================\n" +
                 "1. Dolar -> Peso Argentino\n" +
                 "2. Peso Argentino -> Dolar\n" +
@@ -21,6 +21,7 @@ public class Main {
 
         //Moneda moneda = consulta.consultar("ARS",1 );
         //System.out.println(moneda);
+        MonedaOmdb monedaOmdb = null;
         Moneda moneda = null;
 
         while (true){
@@ -38,27 +39,33 @@ public class Main {
 
             switch (opcion){
                 case 1:
-                    moneda = consulta.consultar("USD","ARS", cantidad);
+                    monedaOmdb = consulta.consultar("USD","ARS", cantidad);
+                    moneda = new Moneda(monedaOmdb);
                     System.out.println(moneda);
                     break;
                 case 2:
-                    moneda = consulta.consultar("ARS","USD", cantidad);
+                    monedaOmdb = consulta.consultar("ARS","USD", cantidad);
+                    moneda = new Moneda(monedaOmdb);
                     System.out.println(moneda);
                     break;
                 case 3:
-                    moneda = consulta.consultar("USD","BRL", cantidad);
+                    monedaOmdb = consulta.consultar("USD","BRL", cantidad);
+                    moneda = new Moneda(monedaOmdb);
                     System.out.println(moneda);
                     break;
                 case 4:
-                    moneda = consulta.consultar("BRL","USD", cantidad);
+                    monedaOmdb = consulta.consultar("BRL","USD", cantidad);
+                    moneda = new Moneda(monedaOmdb);
                     System.out.println(moneda);
                     break;
                 case 5:
-                    moneda = consulta.consultar("USD","COP", cantidad);
+                    monedaOmdb = consulta.consultar("USD","COP", cantidad);
+                    moneda = new Moneda(monedaOmdb);
                     System.out.println(moneda);
                     break;
                 case 6:
-                    moneda = consulta.consultar("COP","USD", cantidad);
+                    monedaOmdb = consulta.consultar("COP","USD", cantidad);
+                    moneda = new Moneda(monedaOmdb);
                     System.out.println(moneda);
                     break;
             }
