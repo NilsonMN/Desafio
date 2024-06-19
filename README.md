@@ -15,3 +15,8 @@ Los usuarios pueden utilizar este programa para obtener tasas de cambio actualiz
   <li>Ejecuta el programa desde tu IDE.</li>
 </ul>
 
+<h2>Ayuda</h2>
+Para obtener ayuda adicional sobre cómo utilizar este proyecto:
+<ul>
+  <li>Puedes revisar el código fuente para entender cómo se implementan las funcionalidades.</li>
+</ul>
