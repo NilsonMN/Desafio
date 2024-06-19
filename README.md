@@ -1,6 +1,9 @@
 <h1 align="center"> Conversor de Monedas usando API </h1>
 
 <h2>Funcionalidades</h2>
+<ul>
+  asd
+</ul>
 Consulta de Tasas de Cambio: Permite obtener las tasas de cambio actualizadas mediante una API externa.
 Conversión de Monedas: Facilita la conversión de una cantidad específica de una moneda a otra utilizando las tasas obtenidas.
 
