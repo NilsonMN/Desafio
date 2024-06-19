@@ -2,9 +2,8 @@
 
 <h2>Funcionalidades</h2>
 <ul>
-  asd
+  <li>Consulta de Tasas de Cambio: Permite obtener las tasas de cambio actualizadas mediante una API externa</li>
 </ul>
-Consulta de Tasas de Cambio: Permite obtener las tasas de cambio actualizadas mediante una API externa.
 Conversión de Monedas: Facilita la conversión de una cantidad específica de una moneda a otra utilizando las tasas obtenidas.
 
 <h2>Uso</h2>
