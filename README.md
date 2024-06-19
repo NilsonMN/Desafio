@@ -2,7 +2,7 @@
 
 <h2>Funcionalidades</h2>
 <ul>
-  <li><bold Consulta de Tasas de Cambio:> Permite obtener las tasas de cambio actualizadas mediante una API externa</li>
+  <li><bold>Consulta de Tasas de Cambio:</bold> Permite obtener las tasas de cambio actualizadas mediante una API externa</li>
   <li>Conversión de Monedas: Facilita la conversión de una cantidad específica de una moneda a otra utilizando las tasas obtenidas.</li>
 </ul>
 
