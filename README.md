@@ -20,3 +20,17 @@ Para obtener ayuda adicional sobre cómo utilizar este proyecto:
 <ul>
   <li>Puedes revisar el código fuente para entender cómo se implementan las funcionalidades.</li>
 </ul>
+
+<h2>Autores</h2>
+<ul>
+  <li>Nilson Muñoz</li>
+</ul>
+
+<h2>Notas:</h2>
+<ul>
+  <li>Nombre del Proyecto: Conversor de monedas usando API</li>
+  <li>Breve descripción o resumen del proyecto: Este programa ayuda a convertir a diferentes tipos de monedas, solo estan implementadas algunas, puedes modificarlas a tu gusto.</li>
+  <li>Funcionalidades: Tiene un menu con opciones donde podras convertir a direntes tipos de monedas</li>
+  <li>Ayuda: nilsonjmn21@gmail.com.</li>
+  <li>Autores: Nilson Muñoz.</li>
+</ul>
