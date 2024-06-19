@@ -6,6 +6,7 @@ Conversión de Monedas: Facilita la conversión de una cantidad específica de u
 
 <h2>Uso</h2>
 Los usuarios pueden utilizar este programa para obtener tasas de cambio actualizadas y realizar conversiones de moneda según sus necesidades. Para ejecutar el programa:
+
 Descarga o clona el repositorio en tu máquina local.
 Asegúrate de tener Java y todas las dependencias (como Gson) instaladas y configuradas.
 Ejecuta el programa desde tu IDE o terminal.
