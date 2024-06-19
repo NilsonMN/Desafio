@@ -2,9 +2,10 @@
 
 <h2>Funcionalidades</h2>
 <ul>
-  <li>Consulta de Tasas de Cambio: Permite obtener las tasas de cambio actualizadas mediante una API externa</li>
+  <li><bold Consulta de Tasas de Cambio:> Permite obtener las tasas de cambio actualizadas mediante una API externa</li>
+  <li>Conversión de Monedas: Facilita la conversión de una cantidad específica de una moneda a otra utilizando las tasas obtenidas.</li>
 </ul>
-Conversión de Monedas: Facilita la conversión de una cantidad específica de una moneda a otra utilizando las tasas obtenidas.
+
 
 <h2>Uso</h2>
 Los usuarios pueden utilizar este programa para obtener tasas de cambio actualizadas y realizar conversiones de moneda según sus necesidades. Para ejecutar el programa:
